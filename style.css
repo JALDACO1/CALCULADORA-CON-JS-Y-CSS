@@ -1,0 +1,59 @@
+
+.container {
+    width: fit-content;
+    margin: 50px auto;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: skyblue;
+}
+
+.tecla {
+    width: 82px;
+    height: 82px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size:34px;
+    cursor: pointer;
+    transition: .3s; 
+}
+
+.tecla:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+    background-color: orange;
+}
+
+#operacionRealizada {
+    text-align: right;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    opacity: .6;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#txtResultado {
+    height: 80px;
+    border: 1px solid white;
+    outline: none;
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content:end;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f9f9f9;
+}
+.cuerpo {
+    background-color: black;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
